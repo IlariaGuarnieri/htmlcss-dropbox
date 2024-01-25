@@ -1,0 +1,2 @@
+dropbox
+riproduzione screenshot
