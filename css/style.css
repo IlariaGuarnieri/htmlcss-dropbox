@@ -94,7 +94,7 @@ li{
 }
 
 .title-box h1{
-  font-size: 4rem;
+  font-size: 3.8rem;
   font-weight: 800;
 }
 
@@ -139,8 +139,52 @@ li{
   font-size: 12px;
 }
 
-
-
 .fa-arrow-down{
   font-size: 35px;
+}
+
+.business-plan{
+  display: flex;
+  margin-top: 750px;
+  width: 700px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blue;
+}
+
+.plan h2{
+  font-size: 30px;
+}
+
+.radio{
+  margin-top: 35px;
+}
+
+.business-box{
+  display: flex;
+  justify-content: center;
+}
+
+.professional{
+  display: flex;
+  width: 37%;
+  height: 713px;
+  background-color: aqua;
+}
+
+.advanced{
+  display: flex;
+  width: 37%;
+  height: 713px;
+  background-color: rgb(255, 64, 0);
+}
+
+.enterprise{
+  display: flex;
+  width: 37%;
+  height: 713px;
+  background-color: rgb(255, 0, 230);
 }
