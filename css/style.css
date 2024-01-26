@@ -83,7 +83,6 @@ h1{
 
 .container-title{
   width: 1000px;
-  height: 200px;
   margin: 0 auto;
   padding-top: 30px;
 }
@@ -217,6 +216,9 @@ display: flex;
   cursor: pointer;
 }
 
+.btn-prova:hover{
+  background-color: #4f8ff5; 
+}
 
 
 
