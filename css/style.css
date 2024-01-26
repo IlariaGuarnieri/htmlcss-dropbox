@@ -72,6 +72,7 @@ li{
 .background-jumbo{
   width: 1300px;
   height: 500px;
+  margin: 0 auto;
   background-color: #B4D1E7;
   margin-bottom: 120px;
 }
@@ -132,6 +133,7 @@ h1{
 .business-plan{
   width: 1300px;
   height: 1000px;
+  margin: 0 auto;
   background-color: #b9e7b4;
 }
 
@@ -196,7 +198,6 @@ margin-bottom: 40px ;
 }
 
 .professional-description{
-  
   margin-left: 20px;
   line-height: 15px;
   margin-top: 15px;
@@ -204,7 +205,7 @@ margin-bottom: 40px ;
 }
 
 .professional-description ul li{
-  list-style-type: ;
+
 }
 
 .btn-prova{
