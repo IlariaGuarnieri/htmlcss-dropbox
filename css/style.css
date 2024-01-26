@@ -205,7 +205,7 @@ margin-bottom: 40px ;
 }
 
 .professional-description ul li{
-
+display: flex;
 }
 
 .btn-prova{
