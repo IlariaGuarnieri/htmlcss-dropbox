@@ -53,72 +53,7 @@ li{
   align-items: center;
 }
 
-.container-jumbo{
-  max-width: 1300px;
-  background-color: #B4D1E7;
-  height: 71vh;
-  position: relative;
-}
-
-.jumbotron{
-  display: flex;
-  margin-top: 170px;
-  width: 900px;
-  height: 350px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.box-sx{
-  width: 30%;
-  height: 100%;
-  margin-left: 5px;
-}
-
-.box-dx{
-  width: 60%;
-  height: 100%;
-}
-
-.title-box{
-  display: flex;
-  margin-top: 3px;
-  width: 900px;
-  height: 380px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.title-box h1{
-  font-size: 3.8rem;
-  font-weight: 800;
-}
-
-.box-sx p{
-  font-size: 13px;
-  margin-bottom: 25px;
-}
-
-.box-dx img{
-  width: 585px;
-  height: 307px;
-}
-
-.btn{
-  background-color:#0061FF ;
-  height: 30px;
-  width: 170px;
-  margin-bottom: 20px;
-}
-
-.btn a{
-  position: relative;
-  top: 5px;
-  padding: 15px;
+.btn-start a{
   color: white;
   font-size: 12px;
 }
@@ -127,64 +62,66 @@ li{
   background-color:#0061FF ;
   height: 30px;
   width: 50px;
-  position: relative;
+}
+/* /header */
+
+.background-jumbo{
+  width: 1300px;
+  height: 500px;
+  background-color: #B4D1E7;
 }
 
-.btn-start a{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 12px;
+h1{
+  font-size: 70px;
+}
+
+.container-title{
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.container-jumbo{
+  display: flex;
+  width: 1000px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.box-sx{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  width: 30% ;
+}
+
+.box-sx p{
+  font-size: 13px;
 }
 
 .fa-arrow-down{
-  font-size: 35px;
-}
-
-.business-plan{
-  display: flex;
-  margin-top: 750px;
-  width: 700px;
-  height: 800px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: blue;
-}
-
-.plan h2{
   font-size: 30px;
 }
 
-.radio{
-  margin-top: 35px;
+.box-dx{
+  height: 100%;
+  width: 75% ;
 }
 
-.business-box{
-  display: flex;
-  justify-content: center;
+.jumbo-img{
+  width: 600px;
+  height: 350px;
 }
 
-.professional{
-  display: flex;
-  width: 37%;
-  height: 713px;
-  background-color: aqua;
+.box-sx a{
+  padding:8px;
+  font-size: 13px;
+  color: white;
+  background-color: #0061FF;
 }
 
-.advanced{
-  display: flex;
-  width: 37%;
-  height: 713px;
-  background-color: rgb(255, 64, 0);
-}
+span{
 
-.enterprise{
-  display: flex;
-  width: 37%;
-  height: 713px;
-  background-color: rgb(255, 0, 230);
 }
