@@ -137,7 +137,7 @@ h1{
 
 .container-plan{
   width: 700px;
-  height: 850px;
+  height: 880px;
   margin: 0 auto;
   background-color: #24ef0d;
 }
@@ -155,8 +155,80 @@ margin-bottom: 40px ;
 }
 
 .container-member{
+  display: flex;
+  justify-content: space-between;
   width: 700px;
   height: 850px;
   margin: 0 auto;
-  background-color: #ef540d;
+  padding-top: 20px ;
+}
+
+.professional{
+  height: 100%;
+  width: 31% ;
+  border: 1px solid black;
+}
+
+.professional .singolo{
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.professional h3{
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size:20px ;
+}
+
+.professional .euro{
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.professional .month{
+  margin-left: 20px;
+  margin-top: 6px;
+  color: grey;
+  font-size: 13px;
+}
+
+.professional-description{
+  
+  margin-left: 20px;
+  line-height: 15px;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.professional-description ul li{
+  list-style-type: ;
+}
+
+.btn-prova{
+  padding:8px;
+  font-size: 13px;
+  margin: 20px;
+  color: white;
+  background-color: #0061FF;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.advanced{
+  height: 100%;
+  width: 31% ;
+  border: 1px solid black;
+}
+
+.enterprise{
+  height: 100%;
+  width: 31% ;
+  border: 1px solid black;
 }
