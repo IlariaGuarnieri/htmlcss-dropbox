@@ -129,22 +129,21 @@ h1{
 }
 /* /jumbtron */
 
+/* piani business */
 .business-plan{
   width: 1300px;
-  height: 1000px;
   margin: 0 auto;
-  background-color: #b9e7b4;
+  margin-bottom: 90px;
 }
-
+ /* contenitore di base dei piani business */
 .container-plan{
   width: 700px;
-  height: 880px;
+  height: 1000px;
   margin: 0 auto;
-  background-color: #24ef0d;
 }
-
+/* intestazione colonna piani business */
 .title-plan{
-margin-bottom: 40px ;
+  margin-bottom: 40px ;
 }
 
 .radio{
@@ -159,46 +158,46 @@ margin-bottom: 40px ;
   display: flex;
   justify-content: space-between;
   width: 700px;
-  height: 850px;
+  height: 680px;
   margin: 0 auto;
   padding-top: 20px ;
+  margin-bottom: 40px;
 }
 
 .professional{
   height: 100%;
   width: 31% ;
-  border: 1px solid black;
+  border: 0.3px solid rgb(127, 125, 125);
 }
 
 .professional .singolo{
   text-align: center;
   font-size: 13px;
   padding: 10px;
-  border-bottom: 1px solid black;
+  border-bottom: 0.3px solid rgb(127, 125, 125);
 }
 
 .professional h3{
-  margin-left: 20px;
+  margin-left: 15px;
   margin-top: 15px;
   font-size:20px ;
 }
 
 .professional .euro{
-  margin-left: 20px;
+  margin-left: 15px;
   margin-top: 15px;
   font-size: 13px;
 }
 
 .professional .month{
-  margin-left: 20px;
+  margin-left: 15px;
   margin-top: 6px;
   color: grey;
   font-size: 13px;
 }
-
+/* primo elenco */
 .professional-description{
-  margin-left: 20px;
-  line-height: 15px;
+  margin-left: 15px;
   margin-top: 15px;
   font-size: 13px;
 }
@@ -207,8 +206,15 @@ margin-bottom: 40px ;
 display: flex;
 }
 
+.professional-description span{
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+/* bottone prova gratis per 30 giorni */
 .btn-prova{
   padding:8px;
+  text-align: center;
   font-size: 13px;
   margin: 20px;
   color: white;
@@ -217,21 +223,199 @@ display: flex;
 }
 
 .btn-prova:hover{
-  background-color: #4f8ff5; 
+  background-color: #5894f5; 
 }
 
+/* linea spazio corta */
+.border{
+  border: 0.3px solid rgb(193, 193, 193);
+  width: 40px;
+  margin-left: 20px;
+}
 
+.space{
+  margin: 20px;
+  font-size: 13px;
+}
 
+.underline{
+text-decoration: underline;
+color: purple;
+font-size: 13px;
+}
 
+/* elenco punti salienti piano */
+.point{
+  margin: 20px;
+}
+
+.punti-salienti{
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.punti-salienti ul li{
+display: flex;
+}
+
+.punti-salienti span{
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.fa-check{
+  color: #0061FF;
+  font-size: 13px;
+}
 
 .advanced{
   height: 100%;
   width: 31% ;
-  border: 1px solid black;
+  border: 0.3px solid rgb(127, 125, 125);
 }
 
 .enterprise{
   height: 100%;
   width: 31% ;
-  border: 1px solid black;
+  border: 0.3px solid rgb(127, 125, 125);
 }
+
+.last-container-plane{
+  width: 700px;
+  height: 200px;
+  margin: 0 auto;
+  border: 0.3px solid rgb(127, 125, 125);
+}
+
+.singolo{
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+  border-bottom: 0.3px solid rgb(127, 125, 125);
+}
+
+.container-bottom-team .euro{
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.container-bottom-team h3{
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size:20px ;
+}
+
+.container-bottom-team span{
+  margin-bottom: 10px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-contact{
+  padding:8px;
+  text-align: center;
+  font-size: 13px;
+  margin: 15px;
+  color: white;
+  background-color: #0061FF;
+  cursor: pointer;
+}
+
+.btn-contact:hover{
+  background-color: #5894f5;
+}
+
+.container-base-foto{
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  }
+
+.box-foto{
+  height: 100%;
+  width: 60% ;
+}
+
+.box-foto img{
+  width: 450px;
+  padding: 12px;
+}
+
+.box-testo{
+  width: 40%;
+  padding-left: 40px;
+  padding-top: 60px;
+}
+
+.box-testo p{
+  font-size: 13px;
+  padding-top: 15px;
+}
+
+.box-testo .btn-partner{
+  padding: 5px 10px;
+  width: 130px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 13px;
+  border: 1px solid rgb(175, 174, 174);
+  cursor: pointer;
+}
+
+.background-cards{
+  height: 800px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.background-cards h2{
+  font-size: 30px;
+  margin-top: 90px;
+}
+
+.box-card-row{
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  width: 100%;
+}
+
+.box-card-row .card-one{
+  height: 100%;
+  width: 30%;
+}
+
+.card-one img{
+  width: 100%;
+}
+
+.card-one p{
+  margin-top: 20px ;
+  font-size: 13px;
+}
+
+.dropbox-business{
+  height: 200px;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.dropbox-business h2{
+  font-size: 35px;
+  margin-bottom: 35px ;
+}
+
+.dropbox-business a{
+  text-decoration: underline;
+  color: purple;
+}
+
