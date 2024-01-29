@@ -736,3 +736,26 @@ margin: 40px;
   margin: 0 auto;
   background-color: #0093CE;
 }
+
+/* footer */
+
+footer{
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.container-base-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: 350px;
+  margin: 0 auto;
+  color: white;
+}
+
+.container-base-footer a{
+  color: white;
+}
+
