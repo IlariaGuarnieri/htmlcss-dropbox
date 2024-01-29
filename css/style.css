@@ -427,11 +427,35 @@ display: flex;
 }
 
 .box-sponsor1{
+  display: flex;
   width: calc(100%/3);
   background-color: aqua;
 }
 
+.designit{
+  background-color: #0061FF;
+  width: 50%;
+  height: 50%;
+}
 
+.designit2{
+  background-color: #00ffdd;
+  width: 50%;
+  height: 50%;
+}
+
+.designit3{
+  background-color: #cc00ff;
+  width: 50%;
+  height: 50%;
+}
+
+.designit4{
+  background-color: #00ffdd;
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 1/1;
+}
 
 
 
