@@ -403,7 +403,6 @@ display: flex;
 }
 
 .dropbox-business{
-  height: 200px;
   width: 700px;
   margin: 0 auto;
   margin-top: 100px;
@@ -419,3 +418,34 @@ display: flex;
   color: purple;
 }
 
+.container-sponsor{
+  display: flex;
+  width: 100%;
+  height: 430px;
+  background-color: rgb(246, 190, 190);
+}
+
+.box-sponsor1{
+  height: 100%;
+  width: (10vw/3);
+  aspect-ratio: 1/1;
+  background-color: aqua;
+}
+
+.box-sponsor2{
+  height: 100%;
+  width: (10vw/3);
+  aspect-ratio: 1/1;
+  background-color: rgb(242, 208, 130);
+}
+
+.box-sponsor3{
+  height: 100%;
+  width: (10vw/3);
+  aspect-ratio: 1/1;
+  background-color: rgb(139, 124, 235);
+}
+
+.designit{
+  
+}
