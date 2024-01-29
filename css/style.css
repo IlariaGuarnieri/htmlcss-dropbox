@@ -428,6 +428,7 @@ display: flex;
 
 .box-sponsor1{
   display: flex;
+  flex-wrap: wrap;
   width: calc(100%/3);
   background-color: aqua;
 }
@@ -439,7 +440,7 @@ display: flex;
 }
 
 .designit2{
-  background-color: #00ffdd;
+  background-color: #ff0000;
   width: 50%;
   height: 50%;
 }
@@ -451,7 +452,7 @@ display: flex;
 }
 
 .designit4{
-  background-color: #00ffdd;
+  background-color: #ffcc00;
   width: 50%;
   height: 50%;
   aspect-ratio: 1/1;
