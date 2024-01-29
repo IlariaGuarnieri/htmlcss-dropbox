@@ -402,6 +402,8 @@ display: flex;
   font-size: 13px;
 }
 
+/* title business */
+
 .dropbox-business{
   width: 700px;
   margin: 0 auto;
@@ -418,55 +420,278 @@ display: flex;
   color: purple;
 }
 
+/* sponsor */
+
 .container-sponsor{
   margin-top: 80px;
   display: flex;
   width: 100%;
   height: 430px;
-  background-color: rgb(250, 236, 236);
 }
 
 .box-sponsor1{
   display: flex;
   flex-wrap: wrap;
   width: calc(100%/3);
-  background-color: aqua;
 }
-
+/* primo sponsor */
 .designit{
-  background-color: #0061FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A3D39B;
   width: 50%;
   height: 50%;
+  position: relative;
+  cursor: pointer;
 }
 
+.designit img{
+  width: 50%;
+  height: 50%;
+  filter: invert(1);
+}
+
+.designit-b{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 15px solid #d1e3ce;
+  display: none;
+}
+
+.designit:hover .designit-b{
+  display: block;
+}
+
+/* secondo sponsor */
 .designit2{
-  background-color: #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #61082C;
   width: 50%;
   height: 50%;
+  position: relative;
+  cursor: pointer;
 }
 
+.designit2 img{
+  width: 50%;
+  height: 50%;
+  filter: invert(1);
+}
+
+.designit2:hover .designit-b{
+  display: block;
+}
+
+/* terzo sponsor */
 .designit3{
-  background-color: #cc00ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0093CE;
   width: 50%;
   height: 50%;
+  position: relative;
+  cursor: pointer;
 }
 
+.designit3 img{
+  width: 50%;
+  height: 20%;
+  filter: invert(1);
+}
+
+.designit3:hover .designit-b{
+  display: block;
+}
+
+/* quarto sponsor */
 .designit4{
-  background-color: #ffcc00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF1D1D;
   width: 50%;
   height: 50%;
-  aspect-ratio: 1/1;
+  position: relative;
+  cursor: pointer;
 }
 
+.designit4 img{
+  width: 50%;
+  height: 50%;
+  filter: invert(1);
+}
 
+.designit-b{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 15px solid #d1e3ce;
+  display: none;
+}
 
+.designit4:hover .designit-b{
+  display: block;
+}
 
+/* box con le scritte */
 .box-sponsor2{
   width: calc(100%/3);
-  background-color: rgb(242, 208, 130);
+}
+.box-sponsor2 img{
+  width: 65%;
+  padding: 40px;
 }
 
+.line{
+border: 0.4px solid rgba(0, 0, 0, 0.177);
+width: 80px;
+margin-left: 40px;
+}
+
+#space{
+  margin-top: 40px;
+}
+
+.box-sponsor2 p{
+  font-size: 13px;
+margin: 40px;
+}
+
+/* box sponsor destra */
 .box-sponsor3{
+  display: flex;
+  flex-wrap: wrap;
   width: calc(100%/3);
   background-color: rgb(139, 124, 235);
 } 
+
+/* quinto sponsor */
+.designit5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D5001F;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.designit5 img{
+  width: 50%;
+  height: 50%;
+  filter: invert(1);
+}
+
+.designit-b{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 15px solid #d1e3ce;
+  display: none;
+}
+
+.designit5:hover .designit-b{
+  display: block;
+}
+
+/* sesto sponsor */
+.designit6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B4D1E7;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.designit6 img{
+  width: 50%;
+  height: 50%;
+  filter: invert(1);
+}
+
+.designit-b{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 15px solid #d1e3ce;
+  display: none;
+}
+
+.designit6:hover .designit-b{
+  display: block;
+}
+
+/* settimo sponsor */
+.designit7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0C2481;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.designit7 img{
+  width: 50%;
+  height: 50%;
+  filter: invert(1);
+}
+
+.designit-b{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 15px solid #9baced;
+  display: none;
+}
+
+.designit7:hover .designit-b{
+  display: block;
+}
+
+/* ottavo sponsor */
+.designit8{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFD831;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.designit8 img{
+  width: 50%;
+  height: 50%;
+  filter: invert(1);
+}
+
+.designit-b{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 15px solid #d1e3ce;
+  display: none;
+}
+
+.designit8:hover .designit-b{
+  display: block;
+}
