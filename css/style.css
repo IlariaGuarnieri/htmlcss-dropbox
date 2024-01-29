@@ -419,33 +419,29 @@ display: flex;
 }
 
 .container-sponsor{
+  margin-top: 80px;
   display: flex;
   width: 100%;
   height: 430px;
-  background-color: rgb(246, 190, 190);
+  background-color: rgb(250, 236, 236);
 }
 
 .box-sponsor1{
-  height: 100%;
-  width: (10vw/3);
-  aspect-ratio: 1/1;
+  width: calc(100%/3);
   background-color: aqua;
 }
 
+
+
+
+
+
 .box-sponsor2{
-  height: 100%;
-  width: (10vw/3);
-  aspect-ratio: 1/1;
+  width: calc(100%/3);
   background-color: rgb(242, 208, 130);
 }
 
 .box-sponsor3{
-  height: 100%;
-  width: (10vw/3);
-  aspect-ratio: 1/1;
+  width: calc(100%/3);
   background-color: rgb(139, 124, 235);
-}
-
-.designit{
-  
-}
+} 
