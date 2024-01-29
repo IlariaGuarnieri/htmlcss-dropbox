@@ -665,7 +665,7 @@ margin: 40px;
   left: 0;
   width: 100%;
   height: 100%;
-  border: 15px solid #9baced;
+  border: 15px solid #0c238144;
   display: none;
 }
 
@@ -741,7 +741,7 @@ margin: 40px;
 /* domande frequenti */
 .background-domande-frequenti{
   width: 700px;
-  height: 400px;
+  height: 450px;
   margin: 0 auto;
 }
 
@@ -776,7 +776,7 @@ margin: 40px;
 
 footer{
   width: 100%;
-  height: 560px;
+  height: 360px;
   margin: 0 auto;
   background-color: black;
 }
@@ -794,6 +794,9 @@ footer{
   margin-top: 80px;
   height: inherit;
   line-height: 30px;
+}
+.info-box a{
+  font-size: 13px;
 }
 
 .info-box strong{
