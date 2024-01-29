@@ -701,13 +701,13 @@ margin: 40px;
 .container-porta-dropbox{
   width: 100%;
   height: 250px;
+  margin-bottom: 100px;
   background-color:#B4D1E7 ;
 }
 
 .scritte{
   display: flex;
   width: 700px;
-  height: 250px;
   margin: 0 auto;
 }
 
@@ -736,9 +736,28 @@ margin: 40px;
   width: 700px;
   height: 500px;
   margin: 0 auto;
-  background-color: #0093CE;
 }
 
+.background-domande-frequenti h2{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.differenza{
+  padding: 30px;
+  font-size: 15px;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  cursor: pointer;
+}
+
+.d-none{
+  display: none;
+}
+
+.differenza:hover .d-none{
+  display: block;
+}
 /* footer */
 
 footer{
@@ -770,4 +789,3 @@ footer{
 .container-base-footer a{
   color: white;
 }
-
