@@ -25,17 +25,24 @@ header{
 }
 
 .button{
+  display: flex;
+  align-items: center;
+  height: 60px;
   cursor: pointer;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-  font-size: 14px;
+.button:hover{
+  border-bottom: 2px solid blue;
 }
 
 li{
   list-style: none;
+}
+
+a{
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
 }
 
 .sx{
@@ -734,7 +741,7 @@ margin: 40px;
 /* domande frequenti */
 .background-domande-frequenti{
   width: 700px;
-  height: 500px;
+  height: 400px;
   margin: 0 auto;
 }
 
@@ -746,12 +753,19 @@ margin: 40px;
 .differenza{
   padding: 30px;
   font-size: 15px;
-  border-top: 0.5px solid black;
-  border-bottom: 0.5px solid black;
   cursor: pointer;
 }
 
+.a, .b,.c{
+  border-top: 0.5px solid black;
+}
+.c{
+  border-bottom: 0.5px solid black;
+}
+
+
 .d-none{
+  margin-top: 15px;
   display: none;
 }
 
